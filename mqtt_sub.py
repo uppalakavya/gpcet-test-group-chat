@@ -10,4 +10,4 @@ def notification(sub_client,userdata,msg):
     print(msg.payload)
 
 sub_client.on_message=notification
-ssub_client.loop_forever()
+sub_client.loop_forever()
